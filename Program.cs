@@ -15,18 +15,18 @@ namespace Glossary
         {
             Dictionary<string, string> glossary = ReadGlossary("GamersGlossary.txt");
             string inputUser = "";
-            bool isWork = true;
+            string commandExit = "exit";
 
-            while (inputUser != "exit")
+            while (inputUser != commandExit)
             {
                 Console.WriteLine("Введите слово: ");
                 inputUser = Console.ReadLine();
                 Console.Clear();
-                SearchTerm(inputUser, glossary, ref isWork);
+                SearchTerm(inputUser, glossary);
             }
         }
 
-        static void SearchTerm(string keyword, Dictionary<string, string> glossary, ref bool isWork)
+        static void SearchTerm(string keyword, Dictionary<string, string> glossary)
         {
             if (glossary.TryGetValue(keyword.ToLower(), out string value))
             {
