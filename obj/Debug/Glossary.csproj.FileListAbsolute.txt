@@ -1,0 +1,7 @@
+Z:\VSPractice\Glossary\Glossary\bin\Debug\Glossary.exe.config
+Z:\VSPractice\Glossary\Glossary\bin\Debug\Glossary.exe
+Z:\VSPractice\Glossary\Glossary\bin\Debug\Glossary.pdb
+Z:\VSPractice\Glossary\Glossary\obj\Debug\Glossary.csproj.AssemblyReference.cache
+Z:\VSPractice\Glossary\Glossary\obj\Debug\Glossary.csproj.CoreCompileInputs.cache
+Z:\VSPractice\Glossary\Glossary\obj\Debug\Glossary.exe
+Z:\VSPractice\Glossary\Glossary\obj\Debug\Glossary.pdb
